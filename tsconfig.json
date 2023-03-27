@@ -1,0 +1,12 @@
+{     
+"compilerOptions": {       
+"target": "esnext",       
+"outDir": "app/js",    
+"module": "commonjs",
+"moduleResolution": "node",
+"preserveConstEnums": true,
+"strict": true,
+"noEmitOnError": true,
+"noImplicitAny": true },    
+"include": [       "app/ts/*/", "app/ts/modelo/pessoa-fisica.ts", "app/ts/modelo/pessoa-juridica.ts", "app/ts/script.ts", "app/ts/modelo/pessoa.ts"     ]  
+}
